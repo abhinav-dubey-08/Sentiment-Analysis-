@@ -29,13 +29,16 @@ Files:
 ---
 
 ## 📂 Project Structure
+```
 sentiment-analysis-app/
-├── Models/
-│ ├── model_xgb.pkl
-│ ├── scaler.pkl
-│ └── countVectorizer.pkl
+├── Models/                       # Contains saved ML model & preprocessing files
+│   ├── model_xgb.pkl             # Trained XGBoost classifier
+│   ├── scaler.pkl                # Feature scaler used during training
+│   └── countVectorizer.pkl       # CountVectorizer for text tokenization
+│
 ├── templates/
-│ └── landing.html
-├── streamlit_app.py # Streamlit frontend
-├── app.py # Flask backend API
+│   └── landing.html              # Optional Flask-based HTML frontend
+│
+├── main.py                        # Streamlit frontend (main UI)
+├── api.py                        # Flask backend API for predictions
 
