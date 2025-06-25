@@ -11,11 +11,6 @@ A full-stack **Machine Learning Web App** to predict the **sentiment (Positive /
 
 ---
 
-## 📸 Demo
-
-| 💬 Single Sentence Prediction | 📄 Bulk CSV Upload & Graph |
-|------------------------------|----------------------------|
-| ![Single Prediction](screenshots/single_prediction.png) | ![Bulk Prediction](screenshots/bulk_prediction.png) |
 
 ---
 
