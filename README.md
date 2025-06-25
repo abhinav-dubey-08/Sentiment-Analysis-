@@ -29,4 +29,13 @@ Files:
 ---
 
 ## 📂 Project Structure
+sentiment-analysis-app/
+├── Models/
+│ ├── model_xgb.pkl
+│ ├── scaler.pkl
+│ └── countVectorizer.pkl
+├── templates/
+│ └── landing.html
+├── streamlit_app.py # Streamlit frontend
+├── app.py # Flask backend API
 
